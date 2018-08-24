@@ -5,7 +5,7 @@ If your ECSs do not need to access the Internet or need to access the Internet 
 **Figure  1**  Configuring the network<a name="fd87108563a6848bba1a0f0295fef3515"></a>
 
 ![](figures/configuring-the-network.png "Configuring the network")  
-[Table 1](#t1b39acc5d1d449eabbea2aab68bfab25)  describes the different tasks in the procedure for configuring the network.
+[Table 1](#t1b39acc5d1d449eabbea2aab68bfab25)  describes the different tasks in the procedure for configuring the network.  
 
 **Table  1**  Configuration process description
 
