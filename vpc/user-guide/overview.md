@@ -2,7 +2,8 @@
 
 If your ECSs do not need to access the Internet or need to access the Internet using a specified IP address with limited bandwidth on default network segment 100.64.0.0/11, for example, the ECSs functioning as the database nodes or server nodes for deploying a website, you can follow the procedure shown in [Figure 1](#fd87108563a6848bba1a0f0295fef3515)  to configure a VPC for the ECSs.
 
-**Figure  1**  Configuring the network<a name="fd87108563a6848bba1a0f0295fef3515"></a>  
+**Figure  1**  Configuring the network  
+<a name="fd87108563a6848bba1a0f0295fef3515"></a>
 ![](figures/configuring-the-network.png "Configuring the network")
 
 [Table 1](#t1b39acc5d1d449eabbea2aab68bfab25)  describes the different tasks in the procedure for configuring the network.  
