@@ -1,6 +1,6 @@
 # Overview<a name="en-us_topic_0030969441"></a>
 
-If your ECSs do not need to access the Internet or need to access the Internet using a specified IP address with limited bandwidth on default network segment 100.64.0.0/11, for example, the ECSs functioning as the database nodes or server nodes for deploying a website, you can follow the procedure shown in [Figure 1](#fd87108563a6848bba1a0f0295fef3515)  to configure a VPC for the ECSs.
+If your ECSs do not need to access the Internet or need to access the Internet using a specified IP address with limited bandwidth on default network segment 100.64.0.0/11, for example, the ECSs functioning as the database nodes or server nodes for deploying a website, you can follow the procedure shown in [Figure 1](#fd87108563a6848bba1a0f0295fef3515)  to configure a VPC for the ECSs.<a name="aaa"></a>
 
 <a name="fd87108563a6848bba1a0f0295fef3515"></a>
 **Figure  1**  Configuring the network  
@@ -36,7 +36,7 @@ If your ECSs do not need to access the Internet or need to access the Internet 
 </td>
 <td class="cellrowborder" valign="top" width="61.47%" headers="mcps1.2.3.1.2 "><p id="a2a5e4b146180467884a76dc60e6f9174"><a name="a2a5e4b146180467884a76dc60e6f9174"></a><a name="a2a5e4b146180467884a76dc60e6f9174"></a>This task is mandatory.</p>
 <p id="a14710d49a76c4dc0a94576bffc5e06a5"><a name="a14710d49a76c4dc0a94576bffc5e06a5"></a><a name="a14710d49a76c4dc0a94576bffc5e06a5"></a>You can create a security group and add ECS&nbsp;in the VPC to the security group to improve&nbsp;ECS access security.</p>
-<p id="a4a071bd88ba44d5eb30715f42001f885"><a name="a4a071bd88ba44d5eb30715f42001f885"></a><a name="a4a071bd88ba44d5eb30715f42001f885"></a>After a security group is created, it has a default rule, which allows all outgoing data packets. ECSs in a security group can access each other without the need to add rules. If the default rule meets your service requirements, you do not need to add rules to the security group.<a name="aaa"></a></p>
+<p id="a4a071bd88ba44d5eb30715f42001f885"><a name="a4a071bd88ba44d5eb30715f42001f885"></a><a name="a4a071bd88ba44d5eb30715f42001f885"></a>After a security group is created, it has a default rule, which allows all outgoing data packets. ECSs in a security group can access each other without the need to add rules. If the default rule meets your service requirements, you do not need to add rules to the security group.</p>
 </td>
 </tr>
 <tr id="r2df0384cb2454eeca0ff868997a4ffc3"><td class="cellrowborder" valign="top" width="38.53%" headers="mcps1.2.3.1.1 "><p id="afba502afa35e4df29757334fbb1d70c3"><a name="afba502afa35e4df29757334fbb1d70c3"></a><a name="afba502afa35e4df29757334fbb1d70c3"></a>Add a security group rule.</p>
