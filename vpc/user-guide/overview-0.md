@@ -2,7 +2,7 @@
 
 If your ECSs need to access the Internet, for example, the ECSs functioning as the service nodes for deploying a website, you can follow the procedure shown in  [Figure 1](#fe457c1ec47c84d6fa3b87210d5b284eb)  to bind EIPs to the ECSs.
 
-**Figure  1**  Configuring the network<a name="fe457c1ec47c84d6fa3b87210d5b284eb"></a>
+**Figure  1**  Configuring the network<a name="fe457c1ec47c84d6fa3b87210d5b284eb"></a>  
 ![](figures/configuring-the-network-0.png "Configuring the network")
 
 [Table 1](#t5143cea7d59f4c31b1c56ab35e86f71f)  describes the different tasks in the procedure for configuring the network.
